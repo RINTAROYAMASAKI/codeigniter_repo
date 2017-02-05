@@ -18,6 +18,17 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+    function urlJump(version){
+        var w = window.open("http://www.infoseek.co.jp/");
+            /* [OK]ボタンが押されたら（TRUE）、Googleへジャンプ */
+            if(version ===1){
+            w.location.href = "http://www.google.co.jp/";
+            }
+        w.focus();
+    }
+</script>
+
   </head>
   <body>
       <body>
@@ -25,7 +36,7 @@
     <h1>BootStrap!!</h1>
       <p>
         <button type="button" class="btn btn-primary btn-lg">Large button</button>
-        <button type="button" class="btn btn-default btn-lg">Large button</button>
+        <button type="button" class="btn btn-default btn-lg" onClick="urlJump(1)">Google</button>
       </p>
       <p>
         <button type="button" class="btn btn-primary">Default button</button>
