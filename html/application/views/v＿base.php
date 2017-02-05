@@ -21,38 +21,6 @@
   </head>
   <body>
       <body>
-        <ul class="nav nav-tabs">
-            <li>
-              <a href="#" data-toggle="dropdown">
-                    Dropdown<span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Hoge</a></li>
-                    <li><a href="#">Fuga</a></li>
-                    <li><a href="#">Piyo</a></li>
-                </ul>
-            </li>
-            <li>
-              <a href="#" data-toggle="dropdown">
-                    Dropdown<span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Hoge</a></li>
-                    <li><a href="#">Fuga</a></li>
-                    <li><a href="#">Piyo</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#" data-toggle="dropdown">
-                    Dropdown<span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Hoge</a></li>
-                    <li><a href="#">Fuga</a></li>
-                    <li><a href="#">Piyo</a></li>
-                </ul>
-            </li>
-        </ul>
 
     <h1>BootStrap!!</h1>
       <p>
