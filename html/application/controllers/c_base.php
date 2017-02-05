@@ -9,6 +9,6 @@ class C_base extends CI_Controller {
 
 	function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('v_base');
 	}
 }
